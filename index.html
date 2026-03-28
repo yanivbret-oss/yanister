@@ -10,8 +10,7 @@
   body { font-family: system-ui, sans-serif; background: #0f0f0f; color: #e0e0e0; min-height: 100vh; display: flex; justify-content: center; }
   .app { width: 100%; max-width: 400px; padding: 2rem 1rem 3rem; }
   .logo { text-align: center; margin-bottom: 2rem; }
-  .logo h1 { font-size: 24px; font-weight: 500; color: #fff; }
-  .logo h1 span { color: #ff69b4; }
+  .logo img { height: 36px; }
   .idle-view, .login-view, .scanning-view, .player-view { margin-top: 150px; }
   .login-view { text-align: center; }
   .login-view p { font-size: 14px; color: #888; margin-bottom: 1.25rem; line-height: 1.6; }
@@ -36,7 +35,7 @@
 </head>
 <body>
 <div class="app">
-  <div class="logo"><h1>Yan<span>ister</span></h1></div>
+  <div class="logo"><img src="logo.png" alt="Yanister"></div>
 
   <div class="login-view" id="login-view">
     <p>Connect your Spotify Premium account to play songs when you scan a card.</p>
