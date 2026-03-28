@@ -10,8 +10,10 @@
   body { font-family: system-ui, sans-serif; background: #0f0f0f; color: #e0e0e0; min-height: 100vh; display: flex; justify-content: center; }
   .app { width: 100%; max-width: 400px; padding: 2rem 1rem 3rem; }
   .logo { text-align: center; margin-bottom: 2rem; }
-  .logo img { height: 36px; }
-  .idle-view, .login-view, .scanning-view, .player-view { margin-top: 300px; }
+  .logo h1 { font-size: 32px; letter-spacing: -0.5px; }
+  .logo h1 .bold { font-weight: 700; color: #D3FF41; }
+  .logo h1 .light { font-weight: 300; color: #ffffff; }
+  .idle-view, .login-view, .scanning-view, .player-view { margin-top: 150px; }
   .login-view { text-align: center; }
   .login-view p { font-size: 14px; color: #888; margin-bottom: 1.25rem; line-height: 1.6; }
   .login-btn { width: 100%; padding: 16px; background: #ff69b4; color: #fff; border: none; border-radius: 12px; font-size: 16px; font-weight: 500; cursor: pointer; }
@@ -35,7 +37,9 @@
 </head>
 <body>
 <div class="app">
-  <div class="logo"><img src="logo.png" alt="Yanister"></div>
+  <div class="logo">
+    <h1><span class="bold">Yani</span><span class="light">ster</span></h1>
+  </div>
 
   <div class="login-view" id="login-view">
     <p>Connect your Spotify Premium account to play songs when you scan a card.</p>
